@@ -1,0 +1,55 @@
+.herosection{
+    text-align: center;
+    background: url(/assets/Illustration.svg) no-repeat bottom center/contain;
+    padding-bottom: 15rem;
+
+    & h1 {
+        font-family: var(--ff-sans);
+        font-size: var(--fs-xl);
+        font-weight: var(--fw-eb);
+        line-height: 1.2;
+        color: var(--text-color-primary);
+        /* padding-top: 24px; */
+        margin: 0px !important;
+        padding-top: 24px;
+    }
+    & p {
+        font-family: var(--ff-sans);
+        font-size: 40px;
+        font-weight: var(--fw-base);
+        color: var(--text-color-secondary);
+        margin: 0px !important;
+        padding-top: 16px;
+        padding-bottom: 48px;
+    }
+    & .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    & img {
+        padding-top: 70px;
+    }
+    & .imghs {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    
+    body {
+      font-size: 17px;
+      margin: 15px;
+    }
+  
+    .card {
+      width: 95%; /* Largura ajustada para tablets */
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}

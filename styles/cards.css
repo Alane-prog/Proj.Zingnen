@@ -1,0 +1,115 @@
+.card{
+    background-color: var(--surface-color);
+    border-radius: 24px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-right: 32px;
+    padding-left: 32px;
+
+    & h3 {
+        font-family: var(--ff-sans);
+        font-size: var(--fs-md);
+        font-weight: var(--fw-eb);
+        line-height: 1.2;
+        color: var(--text-color-primary);
+        margin: 0px !important;
+        padding-top: 16px;
+        padding-bottom: 8px;
+    }
+    & p {
+        font-family: var(--ff-sans);
+        font-size: var(--fs-sm);
+        font-weight: var(--fw-base);
+        line-height: 1.6;
+        color: var(--text-color-secondary);
+        margin: 0px !important;
+    }
+}
+.card1{
+    height: 25rem;
+    width: 17rem;
+}
+.card2{
+    height: 25rem;
+    width: 34rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+    & .cell1 {
+        position: relative;
+        top: -110px;
+    }
+}
+.card3{
+    height: 25rem;
+    width: 17rem;
+}
+.card4{
+    height: 25rem;
+    width: 35rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+    & .cell2 {
+        position: relative;
+        top: -110px;
+    }
+    & .dtext {
+        padding-left: 32px;
+    }
+}
+.card5{
+    height: 25rem;
+    width: 35rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+    & .cell3 {
+        position: relative;
+        bottom: -60px;
+    }
+    & .dtext {
+        padding-right: 32px;
+    }
+}
+@media (max-width: 768px) {
+    
+    body {
+      font-size: 17px;
+      margin: 15px;
+    }
+  
+    .card {
+      width: 95%; /* Largura ajustada para tablets */
+    }
+
+    .card {
+        width: 327px;
+    }
+
+    .card1 {
+        height: 300px;
+    }
+
+    .card2 {
+        height: 320px;
+    }
+
+    .card3 {
+        height: 340px;
+    }
+
+    .card4 {
+        height: 320px;
+        width: 327px;
+    }
+
+    .card5 {
+        height: 320px;
+        width: 327px;
+    }
+    
+  }

@@ -1,0 +1,45 @@
+.head-container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 24px;
+}
+.nav2-head{
+    width: 36.1875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.p-head{
+    text-decoration: none;
+    color: var(--text-color-secondary);
+    font-family: var(--ff-sans);
+    line-height: 1.6;
+    font-size: var(--fs-base);
+}
+
+@media (max-width: 768px) {
+
+    body {
+      font-size: 17px;
+      margin: 15px;
+    }
+  
+    .card {
+      width: 95%; /* Largura ajustada para tablets */
+    }
+
+    .p-head {
+        display: none;
+    }
+    .nav2-head {
+        width: 100px;
+    }
+}

@@ -1,0 +1,84 @@
+.btn{ /* comum à todos os botões */
+    font-family: var(--ff-sans);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.primary{ /* comum aos botões primários */
+    border: 0;
+}
+.btn-sm-primary{ /* botão pequeno 1 */
+    width: 5.5rem;
+    height: 2.5rem;
+    font-size: 14px;
+    background-color: white;
+    color: var(--bg-color);
+}
+.btn-sm-primary:hover{ /* hover do botão pequeno */
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+.btn-md-primary{ /* botão médio 1 */
+    width: 7rem;
+    height: 3rem;
+    font-size: 14px;
+    background-color: var(--text-color-primary);
+    color: var(--bg-color);
+}
+.btn-md-primary:hover{ /* hover do botão médio */
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+.btn-lg-primary{ /* botão grande 1 */
+    width: 8rem;
+    height: 3.2rem;
+    font-size: 14px;
+    background-color: white;
+    color: var(--bg-color);
+}
+.btn-lg-primary:hover{ /* hover do botão grande */
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+/* secundários */
+
+.btn-sm-secondary{ /* botão pequeno 2 */
+    width: 5.5rem;
+    height: 2.5rem;
+    font-size: 14px;
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
+    border-color: var(--text-color-primary);
+}
+.btn-sm-secondary:hover{ /* hover do botão pequeno */
+    background-color: var(--bg-color);
+    color:#fc4a1a;
+    border-color:#fc4a1a;
+}
+.btn-md-secondary{ /* botão médio 2 */
+    width: 7rem;
+    height: 3rem;
+    font-size: 14px;
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
+    border-color: var(--text-color-primary);
+}
+.btn-md-secondary:hover{ /* hover do botão médio */
+    background-color: var(--bg-color);
+    color:#fc4a1a;
+    border-color:#fc4a1a;
+}
+.btn-lg-secondary{
+    width: 8rem;
+    height: 3.2rem;
+    font-size: 14px;
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
+    border-color: var(--text-color-primary);
+}
+.btn-lg-secondary:hover{ /* hover do botão pequeno */
+    background-color: var(--bg-color);
+    color:#fc4a1a;
+    border-color: #fc4a1a;
+}
